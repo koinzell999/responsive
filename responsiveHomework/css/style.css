@@ -23,7 +23,7 @@ p {
 img {
     width: 100%;
     object-fit: contain;
-    max-height: 200px; /* Set a fixed maximum height for all images */
+    max-height: 200px; 
 }
 
 div img {
@@ -35,13 +35,13 @@ div img {
 
 div {
     display: inline-block;
-    vertical-align: top; /* Ensure divs align next to each other */
+    vertical-align: top;
     width: 24%;
-    margin: 5px 2px; /* Adjusted margin for horizontal spacing */
+    margin: 5px 2px; 
     padding: 2px;
 }
 
-/* Media query for screens at least 772px wide */
+
 @media all and (min-width: 772px) {
     div {
         width: 45%;
@@ -51,7 +51,7 @@ div {
     }
 }
 
-/* Media query for screens at least 998px wide */
+
 @media all and (min-width: 998px) {
     div {
         width: 30%;
